@@ -1,8 +1,23 @@
 # Rest Api Comparison
 
 ### Routes
-#### GET
-- "/"
-- "/myjson"
-#### POST
-- "/myjson"
+
+- **GET** "/"
+- **GET** "/snippets"; example response: 
+```
+{
+  "snippets" : [ {
+    "text" : "hello"
+  }, {
+    "text" : "world"
+  } ]
+}
+```
+- **POST** "/snippets"; example body:
+```
+{
+	"snippet":{
+		"text":"my snippet"
+	}
+}
+```
