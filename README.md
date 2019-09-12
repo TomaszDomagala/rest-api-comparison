@@ -18,7 +18,7 @@
   ]
 }
 ```
-- **POST** "/snippets"; example body:
+- **POST** "/snippets"; Only works with JWT token; example body:
 ```
 {
 	"snippet":{
